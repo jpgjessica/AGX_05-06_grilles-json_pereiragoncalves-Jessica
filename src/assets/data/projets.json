@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "title": "OKA",
+        "img": "./static/img/projet1.jpg",
+        "imgAlt": "Image du projet OKA",
+        "description": "Oka est un projet conçu de A à Z. J'ai commencé par créer l'identité visuelle avec Illustrator et Photoshop, puis j'ai réalisé une animation avec After Effects pour promouvoir la marque. J'ai également conçu le design system et le prototype sur Figma. Dans le cadre du cours d'Interface mobile, j'ai développé un site web responsive pour le blog Oka en utilisant HTML, CSS et JavaScript.",
+        "type": [
+            "identité visuelle",
+            "design d'interface",
+            "prototype",
+            "développement Oka blog"
+        ],
+        "date": "09-2023/06-2024",
+        "liens": {
+            "behance": "https://www.behance.net/gallery/209764791/Design-graphique-OKA-Identit-visuelle-et-vido",
+            "github": "lien GitHub",
+            "vercel": "lien Vercel"
+        },
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "gridArea": 1
+    },
+    {
+        "id": 2,
+        "title": "Maison de la culture du pic champlain",
+        "img": "./static/img/projet2.jpg",
+        "imgAlt": "Image du projet Maison de la culture du pic champlain",
+        "description": "Ce projet de refonte du site web a été réalisé en collaboration avec Clémentine Digout, Eve Cloutier et Marie-Michelle Landry. Il vise à relever des défis réels dans la conception et le développement d'un site web. Nous avons mis l'accent sur les besoins du client et proposé des fonctionnalités telles que la radio live et un espace membre. En plus, nous avons conçu un logo pour l'avenir. Actuellement, nous travaillons sur un site WordPress entièrement personnalisé.",
+        "type": [
+            "identité visuelle optionnelle",
+            "design d'interface",
+            "prototype",
+            "développement thème WordPress from scratch"
+        ],
+        "date": "09-2024/02-2025",
+        "liens": {
+            "behance": "lien Behance",
+            "github": "lien GitHub",
+            "vercel": "lien Vercel"
+        },
+        "stack": [
+            "Figma",
+            "Illustrator",
+            "AfterEffects",
+            "HTML",
+            "JavaScript",
+            "PHP",
+            "SCSS"
+        ],
+        "gridArea": 2
+    },
+    {
+        "id": 3,
+        "title": "Jeu de trivia",
+        "img": "./static/img/projet3.png",
+        "imgAlt": "Image du projet Jeu de trivia",
+        "description": "Le projet Trivia a été développé en collaboration avec Alicia Ross. Nous avons créé un site web responsive qui respecte notre maquette, avec une identité visuelle forte. Ce jeu utilise localStorage et des appels à des API (Open Trivia) pour une expérience interactive. Le développement a été réalisé avec HTML, JavaScript et Tailwind, en intégrant la librairie Animate.js pour plus d'interactivité.",
+        "type": [
+            "design d'interface",
+            "développement"
+        ],
+        "date": "10-2024",
+        "liens": {
+            "behance": "lien Behance",
+            "github": "lien GitHub",
+            "vercel": "lien Vercel"
+        },
+        "stack": [
+            "Figma",
+            "HTML",
+            "JavaScript",
+            "Tailwind",
+            "Animate.js"
+        ],
+        "gridArea": 3
+    },
+    {
+        "id": 4,
+        "title": "Jeu de couleurs",
+        "img": "./static/img/projet4.jpg",
+        "imgAlt": "Image du projet Jeu de couleurs",
+        "description": "Le jeu de couleurs démontre mes débuts en JavaScript. J'ai développé un petit jeu mettant en valeur une identité visuelle forte, avec des animations créées à l'aide de keyframes.",
+        "type": [
+            "design d'interface",
+            "développement"
+        ],
+        "date": "03-2024",
+        "liens": {
+            "github": "lien GitHub",
+            "vercel": "lien Vercel"
+        },
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "gridArea": 4
+    },
+    {
+        "id": 5,
+        "title": "Color Display",
+        "img": "./static/img/projet5.png",
+        "imgAlt": "Image du projet Color Display",
+        "description": "Tout comme le jeu de couleurs, le Color Display marque mes débuts en JavaScript. J'ai créé des palettes de couleurs qui changent au clic sur un bouton.",
+        "type": [
+            "développement"
+        ],
+        "date": "02-2024",
+        "liens": {
+            "github": "lien GitHub",
+            "vercel": "lien Vercel"
+        },
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "gridArea": 5
+    },
+    {
+        "id": 6,
+        "title": "Baby Names et Agify API",
+        "img": "./static/img/projet6.png",
+        "imgAlt": "Image du projet Baby Names et Agify API",
+        "description": "Dans ce projet, j'ai utilisé deux APIs, Agify et une autre, pour mettre en pratique mes connaissances en localStorage et en requêtes API. J'ai créé une identité visuelle minimaliste pour une expérience utilisateur épurée. L'application permet de récupérer l'âge moyen des noms et leur signification, tout en offrant la possibilité d'enregistrer des noms préférés.",
+        "type": [
+            "développement"
+        ],
+        "date": "02-2024",
+        "liens": {
+            "github": "lien GitHub",
+            "vercel": "lien Vercel"
+        },
+        "stack": [
+            "HTML",
+            "JavaScript",
+            "Tailwind"
+        ],
+        "gridArea": 6
+    },
+    {
+        "id": 7,
+        "title": "PokeApi",
+        "img": "./static/img/projet1.jpg",
+        "imgAlt": "Image du projet PokeApi",
+        "description": "Ce projet a été un défi dans le cadre du cours d'Applications Interactives. J'ai analysé l'API PokeApi pour créer un site web capable de récupérer et d'afficher des Pokémon via un système de pagination.",
+        "type": [
+            "développement"
+        ],
+        "date": "02-2024",
+        "liens": {
+            "github": "lien GitHub",
+            "vercel": "lien Vercel"
+        },
+        "stack": [
+            "HTML",
+            "JavaScript",
+            "Tailwind"
+        ],
+        "gridArea": 7
+    },
+    {
+        "id": 8,
+        "title": "Domio - Home Automation",
+        "img": "./static/img/projet1.jpg",
+        "imgAlt": "Image du projet Domio - Home Automation",
+        "description": "Domio est une application pour l'automatisation de la maison, intégrant des fonctionnalités comme le contrôle à distance des appareils. J'ai créé une identité visuelle épurée pour une interface ergonomique, optimisée pour les téléphones. Ce projet est en cours de développement, avec des modifications à venir.",
+        "type": [
+            "identité visuelle optionnelle",
+            "design d'interface",
+            "prototype"
+        ],
+        "date": "02-2024",
+        "liens": {
+            "github": "lien GitHub",
+            "vercel": "lien Vercel"
+        },
+        "stack": [
+            "Figma",
+            "Illustrator"
+        ],
+        "gridArea": 8
+    },
+    {
+        "id": 9,
+        "title": "Domio - Home Automation 02",
+        "img": "./static/img/projet1.jpg",
+        "imgAlt": "Image du projet Domio - Home Automation",
+        "description": "Domio est une application pour l'automatisation de la maison, intégrant des fonctionnalités comme le contrôle à distance des appareils. J'ai créé une identité visuelle épurée pour une interface ergonomique, optimisée pour les téléphones. Ce projet est en cours de développement, avec des modifications à venir.",
+        "type": [
+            "identité visuelle optionnelle",
+            "design d'interface",
+            "prototype"
+        ],
+        "date": "02-2024",
+        "liens": {
+            "github": "lien GitHub",
+            "vercel": "lien Vercel"
+        },
+        "stack": [
+            "Figma",
+            "Illustrator"
+        ],
+        "gridArea": 9
+    }
+]

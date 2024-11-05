@@ -1,0 +1,64 @@
+@use 'sass:list';
+@use "sass:math";
+
+$colNum: 12;
+$colArray: "";
+
+@for $i from 1 through $colNum {
+    $colArray: list.append($colArray, $i, comma);
+}
+
+@each $col in $colArray {
+    .col-start-#{$col} {
+        grid-column-start: $col;
+    }
+
+    .col-span-#{$col} {
+        grid-column-end: span $col;
+    }
+}
+
+$rowNum: 5;
+$rowArray: "";
+
+@for $i from 1 through $rowNum {
+    $rowArray: list.append($rowArray, $i, comma);
+}
+
+@each $row in $rowArray {
+    .row-start-#{$row} {
+        grid-row-start: $row;
+    }
+
+    .row-span-#{$row} {
+        grid-row-end: span $row;
+    }
+}
+
+
+@function toRem($value) {
+    $remValue: math.div($value, 16) * 1rem;
+    @return $remValue;
+}
+
+$paddingI: 0;
+
+@while $paddingI < 101 {
+    .p-#{$paddingI} {
+        padding: toRem($paddingI );
+    }
+
+    .pt-#{$paddingI} {
+        padding-top: $paddingI;
+    }
+
+    $paddingI: $paddingI + 10;
+}
+
+$areasArray: "";
+
+@for $i from 0 through 10 {
+    .tuile-#{$i} {
+        grid-area: tuile#{$i};
+    }
+}
